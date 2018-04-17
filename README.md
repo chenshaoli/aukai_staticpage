@@ -1,0 +1,1 @@
+# aukai_staticpage
