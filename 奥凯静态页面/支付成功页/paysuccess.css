@@ -1,0 +1,196 @@
+body{
+	background-color: #efeff4;
+	font-size: 12px;
+	position: relative;
+	padding-bottom: 40px;
+}
+.app{
+	margin-bottom: 40px;
+}
+.details_block{
+	margin: 5px;
+	background-color: #fff;
+	padding: 10px;
+	font-size: 100%;
+    color:#999999;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    position: relative;
+}
+.details_block>p{
+	position: relative;
+	font-size: 14px;
+}
+.details_block>p>i{
+	font-style: normal;
+	position: absolute;
+	left: 30%;
+}
+.detail_block:before{
+    	position: absolute;
+		content: '';
+		left: 0;
+		top:-16px;
+		width: 100%;
+	    border-bottom: 1px dashed #dcdcdc;
+	    -webkit-transform: scaleY(0.5);
+	    transform: scaleY(0.5);
+    }
+.orderstatus{
+	width: 118px;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAV1BMVEUAAAAoxU3///8zyVdS0XDu+/Hp+e0vx1Nk1n+b5KyG35tHzme97smh5rHh9+e27MOB3Zfb9uKm57Y8y16v6r3H8NGp6Ljy/PXR8tmO4aJ12o1s14Ze1HkBqmphAAAAAXRSTlMAQObYZgAAAXJJREFUSMelluuSwiAMhckJhQK2VVvvvv9zrnXXLki5jH7/OhM6ITk5REQ0g20da82utUMjCjSdpADZ5c4oyxShtyoRDsO0ChusxfeSkshdHL9hysCb9/gjFTiG8Xsqsg/yoQq8rHZMFfByc0iqQr6qa6gS89dfpkr4t+dbqmb71JumavSsxK783/8udY8DxRK1wIFfhXpkVCzmCTgvaSsxFOJHBfTj8jkJW7jmGTh5WVvRUpYBgB/SCpfvLYCgT05k23wFEJadRS7+DuBd+bkDrgEi5fspySv5cA+okUJYOL/iwaQegHhSnFfWPYCz1yIAt1gnXuN4ANC8fnABcKEIG0jDYom6AZgoZgrFd1cAZkuTAA60gnqT9zjftJdPxTHFyHiADOYjQLOqmW5lRG8nzNxTIxqbgNsBuKZNILYZPcHkbEaYuD0JsX9qlaKvNOPP7L7+QfnuySo/il8/uw9gdMLMDL5fHeqXk9T6Q5RYf34A/IoQ0f1ebucAAAAASUVORK5CYII=) no-repeat;
+	background-size: 24px 24px ;
+	background-position: 14px 14px;
+	font-size: 16px;
+	color:#333333;
+	font-weight: 300;
+	position: relative;
+	text-align: center;
+	padding:14px 0 10px;
+	margin:0 auto;
+	padding-left: 44px;
+}
+.orderstatus>i{
+		font-style: normal;
+		position: absolute;
+		right: 0;
+		top:0;
+		font-size: 16px;
+}
+.arrow{
+	display: inline-block;
+	width: 6px;
+	height: 11px;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAcCAMAAACJShVNAAAAOVBMVEUAAADNzc3+/v76+vrp6enj4+PT09PQ0NDz8/Pb29vg4ODe3t7Y2Nj39/ft7e3r6+vw8PDv7+/m5uaLGyKyAAAAAXRSTlMAQObYZgAAAGVJREFUGNN1zzkWgCAQBFEb2UG2+x9WzHoAyeoHvJ7Lu6AuehEQ4LFAm5AY+gplQuQ/6wTDoE8wGMYEzWBOUJflKNQqAY76tkCWaW+Zj0hHmUWqL71IUIY9m5iFvsz+P2s724l8AWLXArAro7aiAAAAAElFTkSuQmCC) no-repeat;
+    background-size: contain;
+    right: 0px;
+}
+.flight_details{
+	position: relative;
+	margin-top: 30px;
+	font-size:12px;
+	color:#333333;
+}
+.flightmsg{
+	display: flex;
+	margin: 20px 0;
+}
+.flightmsg>div{
+  flex:1;
+  text-align: center;
+  color: #333333;
+}
+.longarrow{
+	background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARgAAAAIBAMAAADQAf2QAAAAMFBMVEUAAADMzMz+/v7s7Oz6+vrx8fHl5eXf39/b29vW1tbV1dX39/f09PTv7+/S0tLOzs66mX4aAAAAAXRSTlMAQObYZgAAAD1JREFUOMtjGAygzIFh8ABDiQCGQQP8BaWMGAYLYBccRK7hERQUlBw0MTUR6BqJDQwMgoMGiCkMIscIvgUAxb0YLS0fce8AAAAASUVORK5CYII=) no-repeat;
+    background-size: contain;
+    background-position: 0 30px;
+}
+.flight_position{
+	font-size: 16px;
+}
+.flight_time{
+	margin-top: 3px;
+	font-size: 22px;
+}
+.flight_flypos{
+	font-size: 12px;
+	color:#999999;
+	margin-bottom: 20px;
+}
+.circle{
+	position: absolute;
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	top:-22px;
+	background-color: #efeff4
+}
+.leftcircle{
+	left:-16px;
+}
+.line{
+	position: absolute;
+	content: '';
+	left: 0;
+	top:-16px;
+	width: 100%;
+    border-bottom: 1px dashed #dcdcdc;
+    -webkit-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+}
+.rightcircle{
+	right:-16px;
+}
+.invite{
+	position: absolute;
+	right: 0;
+	top:0;
+	font-size: 11px;
+	color: #333333;
+	padding: 1px 3px;
+	border: 1px solid #666666;
+	border-radius: 3px;
+}
+.tgq_detail{
+	font-size: 12px;
+	color: #333333;
+	position: relative;
+}
+.tgq_detail:before{
+	position: absolute;
+	content: '';
+	left: 0;
+	top:-16px;
+	width: 100%;
+    border-bottom: 1px dashed #dcdcdc;
+    -webkit-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+}
+.refundpass{
+	margin-top: 14px;
+}
+.refundtel{
+	margin-top: 8px;
+}
+.recommend{
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXkAAAACCAMAAACKT1y5AAAAWlBMVEUAAAD39/f09PTw8PDq6ure3t7U1NTExMS0tLSwsLDl5eXi4uLIyMjt7e3Y2NjR0dHOzs68vLy3t7fLy8v5+fnn5+fb29va2trBwcG/v7++vr65ubmtra2srKwoN2rVAAAAAXRSTlMAQObYZgAAAHtJREFUKM/t0LcRwzAQBEDyCfvwAL3pv01dRGmGiXJpS9hu7IGIBghBCDExO+eklPMSo1IqpZyb915rvW57KUetxhhr7Xl1v+468YCNWo9S9m3FEaZazilhLsZlxiM2mSfMhjAArnsY73n6mOfHfPvPfz3fHvP8nqd7/gWvpgqjJ0adBAAAAABJRU5ErkJggg==) no-repeat;
+	background-size: 45% 1px;
+	font-size: 14px;
+	color: #666666;
+	text-align: center;
+	background-color: #ffffff;
+	padding: 14px 0 5px;
+	background-position: 50% 24px;
+}
+@media screen and (max-width: 375px){
+	.recommend{
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXkAAAACCAMAAACKT1y5AAAAWlBMVEUAAAD39/f09PTw8PDq6ure3t7U1NTExMS0tLSwsLDl5eXi4uLIyMjt7e3Y2NjR0dHOzs68vLy3t7fLy8v5+fnn5+fb29va2trBwcG/v7++vr65ubmtra2srKwoN2rVAAAAAXRSTlMAQObYZgAAAHtJREFUKM/t0LcRwzAQBEDyCfvwAL3pv01dRGmGiXJpS9hu7IGIBghBCDExO+eklPMSo1IqpZyb915rvW57KUetxhhr7Xl1v+468YCNWo9S9m3FEaZazilhLsZlxiM2mSfMhjAArnsY73n6mOfHfPvPfz3fHvP8nqd7/gWvpgqjJ0adBAAAAABJRU5ErkJggg==) no-repeat;
+	background-size: 49% 1px;
+	font-size: 14px;
+	color: #666666;
+	text-align: center;
+	background-color: #ffffff;
+	padding: 14px 0 5px;
+	background-position: 50% 24px;
+}
+}
+@media screen and (max-width: 320px){
+	.recommend{
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXkAAAACCAMAAACKT1y5AAAAWlBMVEUAAAD39/f09PTw8PDq6ure3t7U1NTExMS0tLSwsLDl5eXi4uLIyMjt7e3Y2NjR0dHOzs68vLy3t7fLy8v5+fnn5+fb29va2trBwcG/v7++vr65ubmtra2srKwoN2rVAAAAAXRSTlMAQObYZgAAAHtJREFUKM/t0LcRwzAQBEDyCfvwAL3pv01dRGmGiXJpS9hu7IGIBghBCDExO+eklPMSo1IqpZyb915rvW57KUetxhhr7Xl1v+468YCNWo9S9m3FEaZazilhLsZlxiM2mSfMhjAArnsY73n6mOfHfPvPfz3fHvP8nqd7/gWvpgqjJ0adBAAAAABJRU5ErkJggg==) no-repeat;
+	background-size: 58% 1px;
+	font-size: 14px;
+	color: #666666;
+	text-align: center;
+	background-color: #ffffff;
+	padding: 14px 0 5px;
+	background-position: 50% 24px;
+}
+}
+.recommendpass{
+	width: 96%;
+	border-radius: 5px;
+	padding:12%;
+	margin: 5px auto;
+	background: url('recommend.png') no-repeat;
+	background-size:100%;
+}
